@@ -12,7 +12,7 @@ public class EmailValidate {
                 atCheck +=1;
             }
         }
-        endWith = str.endsWith(".com") ||str.endsWith(".in") ;
+        endWith = str.endsWith(".com") ||str.endsWith(".in") || str.endsWith(".org");
         if(endWith && atCheck == 1){
             System.out.println("valid email");
         }else{
