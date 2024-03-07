@@ -1,6 +1,8 @@
 package CombinedAssignment01;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Program3 {
@@ -13,6 +15,8 @@ public class Program3 {
             Person p1 = new Person();
             personList.add(p1);
         }
+         Collections.sort(personList, Comparator.comparingDouble(Person::getBmi));
+
         System.out.println("Name |  BMI  |  Remark");
         for(Person p : personList){
             System.out.println(p.getDetails());

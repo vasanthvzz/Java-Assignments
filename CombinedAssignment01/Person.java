@@ -8,7 +8,7 @@ public class Person {
     private String name;
     private float height;
     private float weight;
-    private float bmi;
+    public float bmi;
     private String remark;
     Scanner sc = new Scanner(System.in);
     Person(){
@@ -43,5 +43,8 @@ public class Person {
     
         String result = String.format("%s  |  %.2f  |  %s", this.name,this.bmi,this.remark);
         return result;
+    }
+    public float getBmi() {
+        return this.bmi;
     }
 }
