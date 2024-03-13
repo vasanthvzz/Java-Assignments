@@ -1,3 +1,4 @@
+package ProblemSolving;
 import java.util.Scanner;
 
 public class trainOfCharacter {
