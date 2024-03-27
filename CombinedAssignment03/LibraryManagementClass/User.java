@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class User {
-    private String name;
-    private int id;
-    private Account account;
-    private List<Book> bookList = new ArrayList<>();
+    String name;
+    int id;
+    Account account;
+    List<Book> bookList = new ArrayList<>();
     public void verify(){}
     public void checkBook(){}
     public void getBookInfo(){}

@@ -17,9 +17,6 @@ class Rectangle extends Shape{
     void calcPerimeter(){
         area = 2*(length+breadth);
     }
-    public static void main(String[] args) {
-        System.out.println("hi");
-    }
 }
 
 class Square extends Shape{
