@@ -2,7 +2,7 @@ public class Player {
     private String name;
     private String position;
     private int jerseyNumber;
-    private Team team;
+    //private Team team;
     
     void playGame(){
         System.out.println(name +" played the game!");
